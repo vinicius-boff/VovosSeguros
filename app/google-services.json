@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "531099745780",
+    "firebase_url": "https://primeval-jet-217222.firebaseio.com",
+    "project_id": "primeval-jet-217222",
+    "storage_bucket": "primeval-jet-217222.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531099745780:android:41117ce8f8b17e29",
+        "android_client_info": {
+          "package_name": "com.example.vinicius.vovoseguro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531099745780-oaer1ntr56nrci48argcc9fgmkntf1k0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vinicius.vovoseguro",
+            "certificate_hash": "34e8b0dd10402ef481667f72529e2299bd52a1c0"
+          }
+        },
+        {
+          "client_id": "531099745780-5utarn0itosuc5ft6d5i0kkvtqpkt8l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbmRozjSzulJCxpzfUBL4tzSV8NqkOuoU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531099745780-5utarn0itosuc5ft6d5i0kkvtqpkt8l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaCadIdoso">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="52dp"
+        android:text="Agora que você entrou com sua conta Google Ja salvamos suas informações, então você pode cadastrar as informações do idoso(a)"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.ActionMode.Title" />
+
+    <EditText
+        android:id="@+id/et_nomeidoso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="197dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Nome"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_dateidoso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/et_nomeidoso"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="275dp"
+        android:ems="10"
+        android:hint="Data de nascimento"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/et_pesoidoso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/et_nomeidoso"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="297dp"
+        android:ems="10"
+        android:hint="Peso"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/et_alturaidoso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/et_nomeidoso"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="228dp"
+        android:ems="10"
+        android:hint="Altura em cm"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/bt_next1"
+        style="@android:style/Widget.Material.Light.Button.Borderless.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="onClick"
+        android:text="Proximo" />
+
+    <Spinner
+        android:id="@+id/spinner_sexo"
+        android:layout_width="219dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="159dp" />
+
+</RelativeLayout>
